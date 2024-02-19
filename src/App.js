@@ -5,11 +5,17 @@ import "./styles/App.css";
 import { NextUIProvider } from "@nextui-org/react";
 
 import TopBannerFunction from "./components/TopBannerFunction";
+import CustomNavbarFunction from "./components/CustomNavbarFunction";
+import CustomFooterFunction from "./components/CustomFooterFunction";
+import HomeFunction from "./components/HomeFunction";
 
 function App() {
   return (
     <NextUIProvider>
       <TopBannerFunction/>
+      <CustomNavbarFunction/>
+      <HomeFunction/>
+      <CustomFooterFunction/>
     </NextUIProvider>
   );
 }
