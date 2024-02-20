@@ -1,4 +1,5 @@
 import React from "react";
+import {Image} from "@nextui-org/react";
 
 function HomeFunction() {
   return (
@@ -21,9 +22,12 @@ function HomeFunction() {
       <div className="container mx-auto px-4 md:px-12 py-4 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <img src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/11/gaspa-micheli-nutrizionista.jpg" alt="" />
+          <Image
+            src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/11/gaspa-micheli-nutrizionista.jpg"
+            shadow="md"
+          />
           </div>
-          <div className="text-center md:text-left ms-4">
+          <div className="text-center md:text-left me-4 md:ms-16">
             <h2 className="font-semibold text-xl md:text-4xl lg:text-6xl">“Una corretta alimentazione è la medicina del futuro”</h2>
             <p>LINUS CARL PAULING</p>
             <p className="mt-8 text-lg lg:text-2xl">Siamo i dottori Gianluigi Gaspa e Vanessa Micheli, biologi nutrizionisti.</p>
@@ -46,7 +50,10 @@ function HomeFunction() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8">
           <div className="text-center">
-            <img src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/09/prima-visita-scaled.jpg" alt="" />
+            <Image
+            src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/09/prima-visita-scaled.jpg"
+            shadow="md"
+          />
             <h4 className="py-8 text-xl font-semibold">Prima Visita</h4>
             <p className="text-lg">
               La prima visita dura circa un’ora. Vengono misurati i dati antropometrici (peso, altezza e circonferenza vita) e vengono svolti due
@@ -57,7 +64,10 @@ function HomeFunction() {
             </p>
           </div>
           <div className="text-center">
-            <img src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/09/prima-visita-paziente-scaled.jpg" alt="" />
+            <Image
+            src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/09/prima-visita-paziente-scaled.jpg"
+            shadow="md"
+          />
             <h4 className="py-8 text-xl font-semibold">Controllo Nutrizionale</h4>
             <p className="text-lg">
               Dopo un mese dall’inizio del piano alimentare è calendarizzato un controllo nutrizionale della durata di 40-45 minuti circa. In questo
@@ -67,7 +77,10 @@ function HomeFunction() {
             </p>
           </div>
           <div>
-            <img src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/09/segreteria-scaled.jpg" alt="" />
+            <Image
+            src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/09/segreteria-scaled.jpg"
+            shadow="md"
+          />
             <h4 className="py-8 text-xl text-center font-semibold">Cosa Portare</h4>
               <ul className="list-disc text-lg ms-4">
                 <li>Esami del sangue più recenti (entro 8-10 mesi);</li>

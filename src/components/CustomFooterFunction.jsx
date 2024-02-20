@@ -1,32 +1,31 @@
 import React from "react";
 import { Image } from "@nextui-org/react";
 
-const cities = [
+const footerItems = [
   {
     id: 1,
-    city: "Roma",
-    details: [
-      {
-        address: "Viale della Musica 14, 00144 Roma",
-        phone: "(+39) 327 384 2661",
-        email: "info@studioprofessionalenutrizione.it",
-      },
-    ],
+    link: "Home",
+    path: "/home",
   },
   {
     id: 2,
-    city: "Latina",
-    details: [
-      {
-        address: "Studio Medico Nascosa, Largo G. B. Cirri, 6 – 04100 Latina LT",
-        phone: "0773 601439",
-        email: "info@studioprofessionalenutrizione.it",
-      },
-    ],
+    link: "Chi Siamo",
+    path: "/chi-siamo",
+  },
+  {
+    id: 3,
+    link: "Servizi",
+    path: "/servizi",
+  },
+  {
+    id: 4,
+    link: "Contatti",
+    path: "/contatti",
   },
 ];
 
 function CustomFooterFunction() {
+
   return (
     <div className="bg-green-600 text-white py-5">
       <div className="container mx-auto px-4 divide-y divide-white">
@@ -39,10 +38,13 @@ function CustomFooterFunction() {
             />
           </div>
           <div className="grid grid-cols-4 text-center">
-            <a href="#">Home</a>
+            {footerItems.map((item) => (
+              <a href={item.path} className={`w-full cursor-pointer`}>{item.link}</a>
+            ))}
+            {/* <a href="#">Home</a>
             <a href="#">Chi Siamo</a>
             <a href="#">Servizi</a>
-            <a href="#">Contatti</a>
+            <a href="#">Contatti</a> */}
           </div>
         </div>
         <div className="text-center py-5">
