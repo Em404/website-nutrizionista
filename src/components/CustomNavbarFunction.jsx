@@ -1,10 +1,13 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import { Image, Link, Navbar, NavbarBrand, NavbarContent, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 function CustomNavbarFunction() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  // dichiarazione dello stato
   const [selectedItem, setSelectedItem] = useState(1);
+
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -31,7 +34,7 @@ function CustomNavbarFunction() {
     },
   ];
 
-  React.useEffect(() => {
+  useEffect(() => {
     const currentPathItem = menuItems.find((item) => item.path === location.pathname);
     if (currentPathItem) {
       setSelectedItem(currentPathItem.id);
@@ -49,7 +52,7 @@ function CustomNavbarFunction() {
       <Fragment>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link color={"foreground"} className={`w-full cursor-pointer ${selectedItem === item.id ? "font-bold" : ""}` } href={item.path} size="lg" onClick={() => handleClick(item.id, item.path)}>
+            <Link color={"foreground"} className={`w-full cursor-pointer ${selectedItem === item.id ? "font-bold text-green-600" : ""}` } href={item.path} size="lg" onClick={() => handleClick(item.id, item.path)}>
               {item.link}
             </Link>
           </NavbarMenuItem>
@@ -66,7 +69,6 @@ function CustomNavbarFunction() {
           <Image src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/10/logo-gaspa-micheli-salvia.png" width={180} height={180}/>
         </NavbarBrand>
       </NavbarContent>
-
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         {getMenuItems()}
       </NavbarContent>

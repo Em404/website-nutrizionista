@@ -1,7 +1,7 @@
 import React from "react";
-import {Image} from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 
-function ChiSiamoFunction(props) {
+function ChiSiamoFunction() {
   return (
     <div className="container mx-auto px-4 md:px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-8">
