@@ -2,7 +2,6 @@ import * as React from "react";
 import "./styles/App.css";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-
 // 1. import `NextUIProvider` component
 import {NextUIProvider} from "@nextui-org/react";
 
