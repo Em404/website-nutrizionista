@@ -13,7 +13,7 @@ function HomeFunction() {
           <h1 className="text-3xl md:text-6xl lg:text-8xl">GASPA - MICHELI</h1>
         </div>
       </div>
-      <div className="container mx-auto px-4 md:px-12 py-4 md:py-12 text-center text-2xl md:text-4xl">
+      <div className="container mx-auto px-4 md:px-12 py-4 md:py-12 text-center text-xl md:text-2xl">
         <p>
           Dall’unione professionale e privata dei due fondatori nasce lo studio Professionale di Nutrizione{" "}
           <span className="font-semibold">Gaspa-Micheli</span>
@@ -28,15 +28,15 @@ function HomeFunction() {
           />
           </div>
           <div className="text-center md:text-left me-4 md:ms-16">
-            <h2 className="font-semibold text-xl md:text-4xl lg:text-6xl">“Una corretta alimentazione è la medicina del futuro”</h2>
+            <h2 className="font-semibold text-xl md:text-2xl lg:text-4xl">“Una corretta alimentazione è la medicina del futuro”</h2>
             <p>LINUS CARL PAULING</p>
-            <p className="mt-8 text-lg lg:text-2xl">Siamo i dottori Gianluigi Gaspa e Vanessa Micheli, biologi nutrizionisti.</p>
-            <p className="mt-4 text-lg lg:text-2xl">
+            <p className="mt-8 text-lg xl:text-2xl">Siamo i dottori Gianluigi Gaspa e Vanessa Micheli, biologi nutrizionisti.</p>
+            <p className="mt-4 text-lg xl:text-2xl">
               Il nostro obiettivo è quello di guidare, con un approccio empatico, il paziente alla modifica dei propri stili alimentari senza doversi
               sentire ristretto in rigidi schemi alimentari allineandoci ai suoi fabbisogni senza tralasciare le necessità personali (es. orari di
               lavoro, sport, mense lavorative, etc.)
             </p>
-            <p className="mt-4 text-lg lg:text-2xl">
+            <p className="mt-4 text-lg xl:text-2xl">
               Ci occupiamo prevalentemente di nutrizione clinica e percorsi di dimagrimento applicando tutte le nozioni medico-scientifiche più
               aggiornate.
             </p>
@@ -45,8 +45,8 @@ function HomeFunction() {
       </div>
       <div className="container mx-auto px-4 md:px-12 py-4 md:py-12">
         <div className="text-center">
-          <h2 className="text-4xl md:text-6xl mb-4 font-semibold">Percorso Ambulatoriale</h2>
-          <h4 className="text-lg md:text-4xl mb-8">Analizziamo lo stato di salute con un’accurata anamnesi tramite esami strumentali</h4>
+          <h2 className="text-2xl md:text-4xl mb-4 font-semibold">Percorso Ambulatoriale</h2>
+          <h4 className="text-lg md:text-2xl mb-8">Analizziamo lo stato di salute con un’accurata anamnesi tramite esami strumentali</h4>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8">
           <div className="text-center">

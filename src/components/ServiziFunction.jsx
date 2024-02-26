@@ -52,7 +52,7 @@ function ServiziFunction() {
             <div className="text-8xl text-green-600 py-8">
               {service.icon}
             </div>
-            <p className="text-lg lg:text-2xl">{service.title}</p>
+            <p className="text-lg lg:text-xl">{service.title}</p>
             <p className="text-md lg:text-lg">{service.subtitle}</p>
           </div>
         ))}
@@ -63,13 +63,13 @@ function ServiziFunction() {
   return (
     <div className="container mx-auto px-4 md:px-6">
       <div className="bg-gray-100 my-16 rounded-xl shadow-xl">
-        <div className="text-center py-16 px-32">
-          <h2 className="font-semibold text-xl md:text-4xl lg:text-6xl">Servizi Offerti</h2>
-          <p className="mt-8 text-lg lg:text-2xl">
+        <div className="text-center py-16 px-8 md:px-16 lg:px-32">
+          <h2 className="font-semibold text-xl md:text-2xl lg:text-4xl">Servizi Offerti</h2>
+          <p className="mt-8 text-lg lg:text-xl">
             Un ambiente professionale ma allo stesso tempo accogliente, un team di professionisti altamente formati ma allo stesso tempo empatici, per
             offrire un percorso di benessere e cura centrato sulla persona.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-3">{getServices()}</div>
+          <div className="grid grid-cols-1 md:grid-cols-3">{getServices()}</div>
         </div>
       </div>
     </div>

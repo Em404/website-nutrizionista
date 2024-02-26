@@ -37,7 +37,7 @@ function CustomFooterFunction() {
               height={180}
             />
           </div>
-          <div className="grid grid-cols-4 text-center">
+          <div className="grid grid-cols-4 text-center md:text-lg">
             {footerItems.map((item) => (
               <a href={item.path} className={`w-full cursor-pointer`}>{item.link}</a>
             ))}
