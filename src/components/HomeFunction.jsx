@@ -27,7 +27,7 @@ function HomeFunction() {
             shadow="md"
           />
           </div>
-          <div className="text-center md:text-left me-4 md:ms-16">
+          <div className="text-center md:text-left me-4 md:ms-16 py-8 md:py-0">
             <h2 className="font-semibold text-xl md:text-2xl lg:text-4xl">“Una corretta alimentazione è la medicina del futuro”</h2>
             <p>LINUS CARL PAULING</p>
             <p className="mt-8 text-lg xl:text-2xl">Siamo i dottori Gianluigi Gaspa e Vanessa Micheli, biologi nutrizionisti.</p>
@@ -82,7 +82,7 @@ function HomeFunction() {
             shadow="md"
           />
             <h4 className="py-8 text-xl text-center font-semibold">Cosa Portare</h4>
-              <ul className="list-disc text-lg ms-4">
+              <ul className="list-disc text-lg ms-6">
                 <li>Esami del sangue più recenti (entro 8-10 mesi);</li>
                 <li>Presentarsi a digiuno (2-3 ore);</li>
                 <li>Referti medici inerenti eventuali patologie in corso.</li>

@@ -30,7 +30,7 @@ function ChiSiamoFunction() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-8">
+      <div className="md:grid grid-cols-1 md:grid-cols-2 gap-4 py-8 hidden">
         <div>
         <Image
             src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/11/gaspa-micheli-nutrizionista.jpg"
@@ -49,6 +49,27 @@ function ChiSiamoFunction() {
           <p className="mt-4 text-lg lg:text-xl">
           Mi occupo in particolare di percorsi di dimagrimento oltre che di nutrizione applicata alle patologie (es. diabete, ipercolesterolemia, ipertensione, etc.). Seguo, inoltre, percorsi nutrizionali in condizioni fisiologiche come gravidanza, allattamento, menopausa, etc.
           </p>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-8 md:hidden">
+        <div className="text-center md:text-left me-4 md:ms-16">
+          <h2 className="font-semibold text-xl md:text-4xl lg:text-6xl">Dr.ssa Vanessa Micheli</h2>
+          <p className="mt-4">Biologo Nutrizionista</p>
+          <p className="mt-8 text-lg lg:text-xl">
+          Sono fermamente convinta che la motivazione possa far raggiungere grandissimi risultati.
+          </p>
+          <p className="mt-4 text-lg lg:text-xl">
+          Il mio obiettivo è quello di far acquisire gli strumenti necessari affinchè possa essere l’ultimo percorso nutrizionale intrapreso. Credo nell’approccio empatico al paziente, inclusivo e privo di giudizio volto a non tralasciare l’aspetto emotivo che ruota attorno a una sfera così complessa che è l’alimentazione.
+          </p>
+          <p className="mt-4 text-lg lg:text-xl">
+          Mi occupo in particolare di percorsi di dimagrimento oltre che di nutrizione applicata alle patologie (es. diabete, ipercolesterolemia, ipertensione, etc.). Seguo, inoltre, percorsi nutrizionali in condizioni fisiologiche come gravidanza, allattamento, menopausa, etc.
+          </p>
+        </div>
+        <div>
+        <Image
+            src="https://studioprofessionaledinutrizione.it/wp-content/uploads/2022/11/gaspa-micheli-nutrizionista.jpg"
+            shadow="md"
+          />
         </div>
       </div>
     </div>

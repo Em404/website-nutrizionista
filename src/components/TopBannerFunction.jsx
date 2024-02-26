@@ -9,7 +9,7 @@ function TopBannerFunction() {
   return (
     <div className="bg-green-600 py-3">
       <div className="container mx-auto px-4 md:px-6 text-white font-semibold flex flex-col md:flex-row">
-        <div className="flex">
+        <div className="flex py-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
             <path
               fill-rule="evenodd"
@@ -19,7 +19,7 @@ function TopBannerFunction() {
           </svg>
           <p>{topBannerContact.phone}</p>
         </div>
-        <div className="flex md:ms-6">
+        <div className="flex md:ms-6 py-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
             <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
