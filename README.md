@@ -4,6 +4,6 @@ Link: https://gaspa-micheli.web.app/home
 
 -----------------------------------------------------------------------------------------
 
-Sito vetrina per un ipotetico studio di nutrizione. In questo caso vengono riportate le informazioni del nutrizionista che attualmente mi segue.
+Sito vetrina per un ipotetico studio di nutrizione. In questo caso vengono riportate le informazioni del nutrizionista che mi ha seguito.
 
 Link: https://gaspa-micheli.web.app/home
